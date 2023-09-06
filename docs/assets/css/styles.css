@@ -518,7 +518,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/assets/images/header.gif') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/bd-jonathan.appspot.com/o/videos%2Ffondo1.gif?alt=media&token=1b2ef991-7487-44ed-bad3-51eef993539d') center center no-repeat;
  	background-size: cover;
 	text-align: center;
 }
