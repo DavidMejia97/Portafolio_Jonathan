@@ -1,0 +1,72 @@
+<!-- Footer -->
+<div id="contact">
+<style >
+    footer {
+      background-color: #333; /* Color de fondo del footer */
+      color: #fff; /* Color de letra blanco */
+      text-align: center; /* Centrar contenido */
+    }
+  
+    .footer-container {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centrar elementos horizontalmente */
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    .contact-info,
+    .newsletter {
+      width: 100%;
+      max-width: 400px; /* Ancho máximo del contenido */
+      margin-bottom: 20px;
+    }
+  
+    .bottom-bar {
+      background-color: #222; /* Color de fondo de la barra inferior */
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .bottom-bar p {
+      margin: 0;
+    }
+  </style>
+  
+  <footer class="footer">
+    <div class="footer-container" id="contacto">
+      <img src="assets/images/logoazul1.png" alt="Logo" class="logo">
+      <div class="contact-info">
+        <p>INFORMACIÓN DE CONTACTO</p>
+        <p>Telefono: {{_service.info.telefono}}</p>
+        <a class="email" href="mailTo:{{_service.info.email}}">Email: {{_service.info.email}}</a>
+        <p></p>
+        <p>Dirección: {{_service.info.direccion}}</p>
+      </div>
+
+      <ul class="logo-list">
+        <li><a href="https://github.com/DavidMejia97" target="_blank"><img src="assets\images\github.png" alt="Logo 1"></a></li>
+        <li><a href="https://www.linkedin.com/in/jonathan-david-mejia-garcia-491a05124/" target="_blank"><img src="assets\images\linkedin.png" alt="Logo 2"></a></li>
+        
+        <!-- Agrega más elementos de lista según necesites -->
+      </ul>
+      
+     
+    </div>
+    <div class="autor">
+      <p>Todos los derechos reservados &copy; 2023 Jonathan's</p>
+    </div>
+
+    
+  </footer>
+  
+</div>  
+    
+ <!-- end of footer -->  
+<!-- end of footer -->
+
+
+
